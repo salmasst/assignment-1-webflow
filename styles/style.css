@@ -1,0 +1,323 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* body background */
+.body-background
+{
+    background-color:#F5F8FF;
+
+}
+/* header */
+
+.header
+{
+    background: url(../images/Hero-bg.png);
+    background-repeat: repeat;
+    max-height: 698px;
+    margin: 0px;
+}
+/*nav styles*/
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    
+}
+nav li
+{
+    list-style: none;
+    
+    
+}
+
+.nav-title
+{
+    font-weight: bolder;
+    font-size: 34px;
+    color:#4E47FF;
+}
+
+.button-primary
+{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border-style: none;
+    padding:12px 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.button-primary a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.banner
+{
+    display: block;
+    padding:100px 152px 100px 200px;
+    min-width: 700px;
+    text-align: center;
+}
+
+.banner-content
+{
+    
+    
+    text-align: center;
+        
+}
+.banner-title
+{
+    font-size:65px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.banner-button
+{
+    
+}
+
+/* main style */
+
+main
+{
+    margin:0 auto;
+    max width:1140px;
+}
+
+.section-02
+{
+    display: flex;
+    margin:0px 159px 0px 141px;
+    justify-content: space-between;
+    
+}
+.action
+{
+    
+    margin-right: 220px;
+    
+    max-width: 517px;
+}
+
+.section-title
+{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+    
+}
+
+.section-description
+{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    text-align: justify;
+    
+    
+}
+
+.img-style
+{
+    border-radius: 48px;
+    max-width: 403px;
+    max-height: 328px;
+    
+}
+
+.middle-head
+{
+    max-width: 856px;
+    padding:50px 142px 50px 142px;
+    text-align: center;
+}
+.middle-head-title
+{
+    color:#252432;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.section-03
+{
+    display: block;
+    margin:116px 159px 0px 141px;
+    
+    text-align: center;
+    background: #E5E7FF 10%;
+    border-radius: 24px;
+    
+    
+}
+
+ul.productive-user
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px;
+}
+
+ul.productive-user li
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    list-style-type: none;
+}
+
+h4.review
+{
+    text-align: center;
+}
+.section-4
+{
+    display: flex;
+    margin:50px 159px 0px 141px;
+    align-items: center;
+    
+    
+    
+}
+
+.loved-design
+{
+    background:#FFFFFF;
+    border-radius: 14px;
+    max-width: 366px;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+ul.review-star
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 116px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 80px 0px 20px;
+    
+}
+
+ul.review-star li
+{
+    list-style-type: none;
+    max-width: 20px;
+    margin: 0px;
+}
+
+.design-description
+{
+    display: block;
+    padding: 5px 30px 0px 20px;
+    text-align: justify;
+}
+
+ul.avatar
+{
+    
+    display: flex;
+    padding: 10px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+}
+ul.avatar li
+{
+    list-style-type: none;
+    padding: 10px 10px 0px 0px;
+    margin: 0px;
+}
+
+ul.avatar li img
+{
+    max-width: 40px;
+    border-radius: 24px;
+    
+}
+
+.date 
+{
+    margin: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
+}
+
+.bg-content
+{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin:0px 159px 0px 141px;
+}
+
+img.wc-big
+
+{
+    border-radius: 48px;
+    margin:0px 0px 71px 0px;
+}
+/* footer style */
+footer
+{
+    display: flex;
+    padding:50px 159px 0px 141px;
+    gap:100px;
+}
+
+.footer-column
+{
+    width: 50%;
+}
+.form-description
+{
+    font-size: 97px;
+    font-weight: bold;
+    max-width: 528px;
+}
+
+
+footer input[type="email"], footer input[type="text"], footer textarea
+{
+    height:64px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+}
